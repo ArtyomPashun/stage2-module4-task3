@@ -22,6 +22,6 @@ public class RectangleObserver implements Observer {
     }
 
     public double findRectangleSquare(Rectangle rectangle) {
-        return rectangle.getSideA() * rectangle.getSideA();
+        return rectangle.getSideA() * rectangle.getSideB();
     }
 }
